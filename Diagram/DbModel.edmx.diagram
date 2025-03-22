@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d6805816fa9c4f159f3a01a9312740b6" Name="Diagram1" >
+        <EntityTypeShape EntityType="DbModel.User" Width="1.5" PointX="7" PointY="1.25" FillColor="MediumSlateBlue" />
+        <EntityTypeShape EntityType="DbModel.Rol" Width="1.5" PointX="7.5" PointY="5.125" FillColor="MediumSlateBlue" />
+        <EntityTypeShape EntityType="DbModel.Form" Width="1.5" PointX="10.625" PointY="1.375" FillColor="MediumSlateBlue" />
+        <EntityTypeShape EntityType="DbModel.Module" Width="1.5" PointX="16.875" PointY="5.25" FillColor="MediumSlateBlue" />
+        <EntityTypeShape EntityType="DbModel.Permission" Width="1.5" PointX="14" PointY="7.5" FillColor="MediumSlateBlue" />
+        <EntityTypeShape EntityType="DbModel.RolUser" Width="1.5" PointX="4.625" PointY="5.25" />
+        <AssociationConnector Association="DbModel.RolUserUser" />
+        <AssociationConnector Association="DbModel.RolUserRol" />
+        <EntityTypeShape EntityType="DbModel.FormModule" Width="1.5" PointX="14.375" PointY="2.25" />
+        <AssociationConnector Association="DbModel.FormModuleModule" />
+        <AssociationConnector Association="DbModel.FormModuleForm" />
+        <EntityTypeShape EntityType="DbModel.RolFormPermission" Width="1.5" PointX="10.625" PointY="4.875" />
+        <AssociationConnector Association="DbModel.RolFormPermissionPermission" />
+        <AssociationConnector Association="DbModel.RolFormPermissionRol" />
+        <AssociationConnector Association="DbModel.RolFormPermissionForm" />
+        <EntityTypeShape EntityType="DbModel.ChangeLog" Width="1.5" PointX="19.25" PointY="1.625" />
+        <EntityTypeShape EntityType="DbModel.Person" Width="1.5" PointX="3.375" PointY="1.375" FillColor="MediumSlateBlue" />
+        <AssociationConnector Association="DbModel.UserPerson" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
