@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity.Model
+namespace Entity.DTOs
 {
-    class Form
+    public class FormDTO
     {
         public int Id { get; set; }
         public int Code { get; set; }

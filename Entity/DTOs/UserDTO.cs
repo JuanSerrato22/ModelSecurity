@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity.Model
+namespace Entity.DTOs
 {
-    class Form
+    class UserDTO
     {
         public int Id { get; set; }
-        public int Code { get; set; }
+        public string UserName { get; set; }
         public string Name { get; set; }
         public bool Active { get; set; }
     }

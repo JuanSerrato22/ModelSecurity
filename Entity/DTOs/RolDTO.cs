@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity.Model
+namespace Entity.DTOs
 {
-    class Form
+    class RolDTO
     {
         public int Id { get; set; }
-        public int Code { get; set; }
+        public string Code { get; set; }
         public string Name { get; set; }
-        public bool Active { get; set; }
+        public decimal Valor { get; set; }
     }
 }

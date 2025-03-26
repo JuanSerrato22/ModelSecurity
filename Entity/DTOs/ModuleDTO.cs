@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entity.DTOs
 {
-    class Module
+    class ModuleDTO
     {
+        public int Id { get; set; }
+        public int Code { get; set; }
+        public string Name { get; set; }
     }
 }
